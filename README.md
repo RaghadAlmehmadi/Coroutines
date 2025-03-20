@@ -5,31 +5,6 @@ This project demonstrates the use of **Kotlin Coroutines** in an Android applica
 
 ---
 
-## Project Structure  
-
-The project consists of two main parts:  
-
-### ** 1 Coroutine Execution**  
-- Implements three functions using **coroutines**.  
-- Executes them in **sequential order** (one after another with delays).  
-- Executes them in **concurrent order** (all running simultaneously).  
-- Uses **Dispatchers** for efficient coroutine execution.  
-- Handles **errors properly** within coroutines.  
-
-### ** 2 Generic Calculator**  
-
-#### **Calculator Class**  
-- Supports **addition and subtraction** with generic constraints (`T : Number`).  
-- Provides a method to **get the stored value**.  
-
-#### **MultiplicationProcessor**  
-- Uses a generic `in T : Number` type parameter for **multiplication**.  
-
-#### **DivisionProcessor**  
-- Supports **division with error handling** (prevents **division by zero**).  
-
----
-
 ## How to Run  
 
 1 **Clone the repository** or **download the project**.  
